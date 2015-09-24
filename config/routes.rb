@@ -15,7 +15,8 @@ Rails.application.routes.draw do
   #   resources :products
 
   resources :movies
-  
+  get 'moviesbyname' => 'movies#showbyname'
+  get 'moviesbydate' => 'movies#showbydate'
   # Example resource route with options:
   #   resources :products do
   #     member do
