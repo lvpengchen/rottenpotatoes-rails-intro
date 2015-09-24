@@ -23,7 +23,12 @@ test:
 production:
   adapter: postgresql
   pool: 5
+<<<<<<< HEAD
   timeout: 5000  
   database: d8ce9cg9j89lo3
   username: ydtvqduivhraoo
   password: xUp5zCBiGdMhK9hlM7WqmxoN6D
+=======
+  timeout: 5000
+  database: your_database_name
+>>>>>>> c707c60fd2432f384dad962e491c0262c4135cf8

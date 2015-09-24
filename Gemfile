@@ -5,6 +5,10 @@ ruby '2.2.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
 # Use sqlite3 as the database for Active Record
+<<<<<<< HEAD
+=======
+gem 'sqlite3'
+>>>>>>> c707c60fd2432f384dad962e491c0262c4135cf8
 #gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -34,8 +38,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+<<<<<<< HEAD
 group :development, :test do
 gem 'sqlite3'
+=======
+group :development, :test do 
+  gem 'sqlite3'
+>>>>>>> c707c60fd2432f384dad962e491c0262c4135cf8
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
